@@ -5,10 +5,17 @@
 /* Uncomment below if images are way too big.
 Selects all image tags and makes them 500px;
  */
-/*img {*/
-/*  width: 500px;*/
-/*}*/
+img {
+  height: 100px;
+  width: 100px;
+  margin: 1rem;
+}
 
 .gallery-container {
   /* TODO add styles (hint: use flex!) https://www.w3schools.com/cssref/ */
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-content: center;
+  padding: 2rem;
 }
